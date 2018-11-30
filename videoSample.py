@@ -1,8 +1,10 @@
 /*
 
-Bob is making a video conference software. Whenever a new person joins the conference, Bob displays the person's name in the interface.
+Bob is making a video conference software. Whenever a new person joins the conference, Bob displays the 
+person's name in the interface.
 
-However, displaying full name is tedious and takes much space. So he decided to display the shortest prefix which doesn't match with any prefix of any person who has joined earlier.
+However, displaying full name is tedious and takes much space. So he decided to display the shortest prefix which 
+doesn't match with any prefix of any person who has joined earlier.
 
 Let's suppose the first person to enter the conference is alvin.
 
