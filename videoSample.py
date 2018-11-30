@@ -1,4 +1,4 @@
-/*
+'''
 
 Bob is making a video conference software. Whenever a new person joins the conference, Bob displays the 
 person's name in the interface.
@@ -68,7 +68,7 @@ samu
 sam 2
 mi
 
-*/
+'''
 
 n = int(input())
 seen = {}
