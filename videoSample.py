@@ -22,6 +22,51 @@ Map - {a: 0, al: 0, alv: 0, alvi: 0, alvin: 2, ali: 0, alic: 0, alice: 1}
 If the full name of a new person matches completely with the full name of any person who has joined earlier,
 he will display the full name and add a suffix which indicates how many times the same name has occurred in the list so far. 
 For example, if another person name alvin joins, the list will look like this:
+    
+Input Format
+
+The first line contains an integer .
+
+The subsequent  line contains a string  denoting the name of the  person to join the call.
+
+Constraints
+
+ will contain only lower-case english letters.
+Subtask
+
+ for  of the maximum score
+Output Format
+
+Return a string array with  items, the  line should contain the prefix of name of the  person which doesn't match with any other person who has joined earlier.
+
+Sample Input 0
+
+3
+alvin
+alice
+alvin
+Sample Output 0
+
+a
+ali
+alvin 2
+Sample Input 1
+
+6
+mary
+stacy
+sam
+samuel
+sam
+miguel
+Sample Output 1
+
+m
+s
+sa
+samu
+sam 2
+mi
 
 */
 
